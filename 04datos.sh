@@ -1,0 +1,4 @@
+NOMBRE="Diego"
+echo $NOMBRE
+RUT=161476749
+echo $RUT
