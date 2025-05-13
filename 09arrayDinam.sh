@@ -21,3 +21,9 @@ marcas[2]="Pipore"
 echo "Todos las marcas del arreglo: ${marcas[@]}" # Mostramos todos los elementos del arreglo
 echo "Los subindices de los elementos son: ${!marcas[@]}"
 echo "La cantidad de elementos es: ${#marcas[@]}"
+
+unset marcas[2] # Eliminamos el indice 2 de nuestro arreglo
+
+echo "Todos las marcas del arreglo: ${marcas[@]}" # Mostramos todos los elementos del arreglo
+echo "Los subindices de los elementos son: ${!marcas[@]}"
+echo "La cantidad de elementos es: ${#marcas[@]}"
